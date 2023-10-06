@@ -1,2 +1,2 @@
-i#!/bin/bash\
+#!/bin/bash
 echo $((` echo "Number of directories in PATH" | grep -o ":/" | wc - 1 ` + 1))
